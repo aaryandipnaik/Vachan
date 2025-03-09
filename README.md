@@ -1,35 +1,26 @@
-# Vachan - A promise to Morality 
+# Vachan - A Promise to Morality
 
-Website Link : https://v4chan.vercel.app/landing
-Showcase Link : https://youtu.be/7WnDl5LnKYM , https://drive.google.com/file/d/1hjgcxJ6hCJ0GXkO5pFR0h8LwvETjk4L2/view?usp=sharing
+![Vachan Logo](https://pplx-res.cloudinary.com/image/upload/v1741530815/user_uploads/vaFaoCPkzLeSSgE/vachan_logo-removebg-preview.jpg)
 
+## Description
+*Vachan* is an AI-powered fact-checking web application designed to combat misinformation and false information. It verifies the accuracy of trending news articles across social media platforms using advanced AI models and the Google Fact Check API. With features like regional language support and an interactive bot, Vachan ensures accessibility and reliability for all users.
 
-Vachan: AI-Powered Fact Checker
-Vachan is an innovative web application designed to combat misinformation and false information by verifying the accuracy of trending news articles across social media. It leverages the Google Fact Check API and AI models to ensure the reliability of information, categorizing news as verified or unverified.
+---
 
-Key Features
-AI-Driven Fact Checking: Utilizes AI models and the Google Fact Check API to validate news articles.
-The AI powered solution for you to fact check your daily news built in order to save everyone from the hassle
+## Key Features
 
-Aria FactBot: An interactive bot that responds to user queries, provides article suggestions, and offers factual insights.
+- *AI-Driven Fact Checking*: Leverages AI models and the Google Fact Check API to validate news articles.
+- *Aria FactBot*: An interactive bot that responds to user queries, provides article suggestions, and offers factual insights.
+- *Regional Language Support*: Utilizes a translation extension for fact-checking news in regional languages.
+- *Enhanced User Experience*:
+  - Reader Mode for simplified content.
+  - High Contrast Mode for improved readability.
+  - Clear UI/UX with customizable Dark and Light Modes.
 
-Regional Language Support: Utilizes a translation extension to support fact-checking of news in regional languages, making it accessible to a broader audience.
+---
 
-Enhanced User Experience:
+## Showcase
+- [Watch the Demo on YouTube](https://youtu.be/7WnDl5LnKYM)
+- [Access the Showcase on Google Drive](https://drive.google.com/file/d/1hjgcxJ6hCJ0GXkO5pFR0h8LwvETjk4L2/view?usp=sharing)
 
-Reader Mode: Simplifies content for easier reading.
-
-High Contrast Mode: Improves readability for users with visual impairments.
-
-Clear UI/UX: Intuitive interface for seamless navigation.
-
-Dark and Light Modes: Customizable themes for user preference.
-
-Getting Started
-Clone the repository: git clone https://github.com/4Saanp/Vachan.git
-
-Follow the setup instructions in the setup.md file or contact the developers for more information.
-
- 
-
-
+---
