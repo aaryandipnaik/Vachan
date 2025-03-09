@@ -6,10 +6,11 @@ Vachan is an innovative web application designed to combat misinformation and fa
 
 Key Features
 AI-Driven Fact Checking: Utilizes AI models and the Google Fact Check API to validate news articles.
+The AI powered solution for you to fact check your daily news built in order to save everyone from the hassle
 
 Aria FactBot: An interactive bot that responds to user queries, provides article suggestions, and offers factual insights.
 
-Regional Language Support: Utilizes a translate extension to support fact-checking of news in regional languages, making it accessible to a broader audience.
+Regional Language Support: Utilizes a translation extension to support fact-checking of news in regional languages, making it accessible to a broader audience.
 
 Enhanced User Experience:
 
@@ -25,6 +26,6 @@ Getting Started
 Clone the repository: git clone https://github.com/4Saanp/Vachan.git
 
 Follow the setup instructions in the setup.md file or contact the developers for more information.
-=======
-th AI powered solution for you to fact check your daily news built in order to save evryone from the hassle 
+
+ 
 
