@@ -1,5 +1,4 @@
 # Vachan - A promise to Morality 
- 
 
 Vachan: AI-Powered Fact Checker
 Vachan is an innovative web application designed to combat misinformation and false information by verifying the accuracy of trending news articles across social media. It leverages the Google Fact Check API and AI models to ensure the reliability of information, categorizing news as verified or unverified.
@@ -28,4 +27,5 @@ Clone the repository: git clone https://github.com/4Saanp/Vachan.git
 Follow the setup instructions in the setup.md file or contact the developers for more information.
 
  
+
 
