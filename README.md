@@ -1,7 +1,8 @@
 # Vachan - A promise to Morality 
 
 Website Link : https://v4chan.vercel.app/landing
-Showcase Link : https://youtu.be/7WnDl5LnKYM
+Showcase Link : https://youtu.be/7WnDl5LnKYM , https://drive.google.com/file/d/1hjgcxJ6hCJ0GXkO5pFR0h8LwvETjk4L2/view?usp=sharing
+
 
 Vachan: AI-Powered Fact Checker
 Vachan is an innovative web application designed to combat misinformation and false information by verifying the accuracy of trending news articles across social media. It leverages the Google Fact Check API and AI models to ensure the reliability of information, categorizing news as verified or unverified.
