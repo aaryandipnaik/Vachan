@@ -1,12 +1,4 @@
-# 
 
----
-
-# give me content for setup.md
-
-Here's a sample content for a `setup.md` file to help users set up and deploy your fact-checking web application, Vachan:
-
----
 
 # Setup Guide for Vachan
 
