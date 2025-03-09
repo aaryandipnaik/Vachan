@@ -22,5 +22,6 @@
 ## Showcase
 - [Watch the Demo on YouTube](https://youtu.be/7WnDl5LnKYM)
 - [Access the Showcase on Google Drive](https://drive.google.com/file/d/1hjgcxJ6hCJ0GXkO5pFR0h8LwvETjk4L2/view?usp=sharing)
+- [Website link](https://v4chan.vercel.app/landing)
 
 ---
