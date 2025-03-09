@@ -1,0 +1,331 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 196 100% 50%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 196 100% 50%;
+    --radius: 0.5rem;
+
+    /* User customizable variables for readability */
+    --user-font-size: 16px;
+    --user-line-height: 1.5;
+    --user-font-family: system-ui;
+  }
+
+  .light {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 196 100% 50%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 196 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  /* Apply user readability settings */
+  p,
+  li,
+  span,
+  div {
+    font-size: var(--user-font-size);
+    line-height: var(--user-line-height);
+    font-family: var(--user-font-family);
+  }
+
+  /* High contrast mode */
+  .high-contrast {
+    --foreground: 0 0% 100%;
+    --background: 0 0% 0%;
+    --muted-foreground: 0 0% 100%;
+    --card: 0 0% 10%;
+    --border: 0 0% 100%;
+  }
+
+  .light.high-contrast {
+    --foreground: 0 0% 0%;
+    --background: 0 0% 100%;
+    --muted-foreground: 0 0% 0%;
+    --card: 0 0% 95%;
+    --border: 0 0% 0%;
+  }
+
+  /* Dyslexic font */
+  .dyslexic-font p,
+  .dyslexic-font li,
+  .dyslexic-font span,
+  .dyslexic-font div,
+  .dyslexic-font h1,
+  .dyslexic-font h2,
+  .dyslexic-font h3,
+  .dyslexic-font h4,
+  .dyslexic-font h5,
+  .dyslexic-font h6 {
+    font-family: "OpenDyslexic", var(--user-font-family);
+  }
+}
+
+/* Prose styles for content pages */
+.prose {
+  max-width: 65ch;
+  color: var(--foreground);
+}
+
+.prose a {
+  color: hsl(var(--primary));
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.prose strong {
+  font-weight: 600;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  color: hsl(var(--foreground));
+  font-weight: 700;
+  line-height: 1.25;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.prose h1 {
+  font-size: 2.25em;
+}
+
+.prose h2 {
+  font-size: 1.5em;
+}
+
+.prose h3 {
+  font-size: 1.25em;
+}
+
+.prose ul,
+.prose ol {
+  padding-left: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.prose li {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.prose blockquote {
+  font-style: italic;
+  border-left: 4px solid hsl(var(--muted));
+  padding-left: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Add glass effect classes */
+.glass {
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.light .glass {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* V-shaped loader animation */
+.v-shape-loader {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.v-line-left,
+.v-line-right {
+  position: absolute;
+  width: 2px;
+  height: 0;
+  background-color: hsl(var(--primary));
+  top: 0;
+  animation: v-line-animation 1.5s infinite;
+}
+
+.v-line-left {
+  left: 8px;
+  transform: rotate(45deg);
+  transform-origin: bottom;
+  animation-delay: 0s;
+}
+
+.v-line-right {
+  right: 8px;
+  transform: rotate(-45deg);
+  transform-origin: bottom;
+  animation-delay: 0.2s;
+}
+
+@keyframes v-line-animation {
+  0% {
+    height: 0;
+    opacity: 0;
+  }
+  20% {
+    height: 16px;
+    opacity: 1;
+  }
+  40% {
+    height: 16px;
+    opacity: 1;
+  }
+  60% {
+    height: 16px;
+    opacity: 1;
+  }
+  80% {
+    height: 16px;
+    opacity: 0.5;
+  }
+  100% {
+    height: 0;
+    opacity: 0;
+  }
+}
+
+/* Blurred graphics for analytics */
+.blur-graphic {
+  filter: blur(30px);
+  opacity: 0.15;
+  position: absolute;
+  border-radius: 100%;
+}
+
+.blur-graphic-1 {
+  background: hsl(var(--primary));
+  width: 150px;
+  height: 150px;
+  top: 20%;
+  left: 10%;
+}
+
+.blur-graphic-2 {
+  background: hsl(var(--primary));
+  width: 200px;
+  height: 200px;
+  bottom: 10%;
+  right: 5%;
+}
+
+.blur-graphic-3 {
+  background: hsl(var(--primary));
+  width: 100px;
+  height: 100px;
+  top: 10%;
+  right: 20%;
+}
+
+/* Add reader mode styles to globals.css */
+/* Add this at the end of the file */
+
+/* Reader Mode Styles */
+.reader-mode {
+  --reader-max-width: 680px;
+}
+
+.reader-mode .news-card {
+  max-width: var(--reader-max-width);
+  margin-left: auto;
+  margin-right: auto;
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+.reader-mode .news-card .card-header,
+.reader-mode .news-card .card-content {
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.reader-mode .news-card h3 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.reader-mode .news-card p {
+  font-size: calc(var(--user-font-size) * 1.1);
+  line-height: 1.8;
+}
+
+.reader-mode .container {
+  max-width: 768px;
+}
+
+.reader-mode .sidebar,
+.reader-mode .ads,
+.reader-mode .related-content {
+  display: none !important;
+}
+
+.reader-mode .news-filters,
+.reader-mode .tabs-list {
+  max-width: var(--reader-max-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reader-mode .news-card img {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+}
+
+.reader-mode .news-card .card-footer {
+  border-top: 1px solid var(--border);
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
+
